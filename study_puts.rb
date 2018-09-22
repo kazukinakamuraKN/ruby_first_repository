@@ -26,3 +26,12 @@ x = ""
 y = ""
 puts "trueです" if y.empty? && x.empty?
 puts "falseです" if !x.empty? && !y.empty?
+z = "aaa"
+puts "trueですyお" if !(z.length == 0)
+
+#puts null.to_s
+
+puts nil.to_s
+puts "nil empty true & true.length == 4"if nil.to_s.empty?.to_s.length == 4
+
+puts nil.nil?
