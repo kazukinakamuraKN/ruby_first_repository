@@ -21,3 +21,8 @@ elsif
 elsif
   puts "NGNG"
 end
+
+x = ""
+y = ""
+puts "trueです" if y.empty? && x.empty?
+puts "falseです" if !x.empty? && !y.empty?
