@@ -17,3 +17,4 @@ end
 
 string_check("aiueo")
 string_check()
+string_check
