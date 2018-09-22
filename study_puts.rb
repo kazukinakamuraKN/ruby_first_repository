@@ -5,4 +5,5 @@ puts "#{a}県#{b}市"
 
 puts "".length
 puts "".empty?
-puts "".length.length
+#puts "".length.length
+puts "".empty?.length
