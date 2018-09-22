@@ -1,9 +1,19 @@
-def string_message(str = '')
+#def string_message(str = '')
+#  if str.empty?
+#    "It's an empty string!"
+#  else
+#    "The string is nonempty"
+#  end
+#end
+
+def string_check(str = "")
+  puts "This string is [#{str}}"
   if str.empty?
-    "It's an empty string!"
+    puts "This string is empty"
   else
-    "The string is nonempty"
+    puts "This string length is [#{str.length}]"
   end
 end
 
-puts string_message("")
+string_check("aiueo")
+string_check()
