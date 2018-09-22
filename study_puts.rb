@@ -9,3 +9,15 @@ puts "".empty?
 #puts "".empty?.length
 puts "#{a}\t#{b}"
 puts '#{a}\t#{b}'
+#if "".empty?
+#  puts "true OK"
+#else
+#  puts "else NG..."
+#else
+#end
+if "".empty?
+elsif
+  puts "NG"
+elsif
+  puts "NGNG"
+end
