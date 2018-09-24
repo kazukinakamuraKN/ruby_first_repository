@@ -79,3 +79,7 @@ def each_sample
 end
 
 p hoge = each_sample()
+
+p %w[a b C D].map(&:downcase)
+p %w[a b C D].each(&:downcase)
+#レシーバーをそのまま返しているeachとdowncaseを呼び出し、戻り値を返すmap
