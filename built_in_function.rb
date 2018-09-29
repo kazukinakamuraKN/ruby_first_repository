@@ -10,9 +10,18 @@
 #p "Malayalam".downcase.palindrome?
 
 #study 2
+#class String
+#  def shuffle
+#    self.split("").shuffle.join
+#  end
+#end
+#
+#p "hello".shuffle
+
+##self delete version
 class String
   def shuffle
-    self.split("").shuffle.join
+    split("").shuffle.join
   end
 end
 
