@@ -9,10 +9,9 @@ end
 #puts to_hex(13,14,15)
 
 def to_ints(hex)
-  r = hex[1..2]
-  g = hex[3..4]
-  b = hex[5..6]
+#  r,g,b = hex[1..2], hex[3..4], hex[5..6]
 #  ints = []
-[r,g,b].map { |s| s.hex }
+  r,g,b = hex.scan(/\w\w/)
+  [r,g,b].map { |s| s.hex }
 #  ints
 end
