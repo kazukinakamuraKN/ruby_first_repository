@@ -11,7 +11,9 @@ end
 def to_ints(hex)
 #  r,g,b = hex[1..2], hex[3..4], hex[5..6]
 #  ints = []
-  r,g,b = hex.scan(/\w\w/)
-  [r,g,b].map { |s| s.hex }
+#  
+#  r,g,b = hex.scan(/\w\w/)
+#  [r,g,b].map { |s| s.hex }
 #  ints
+  hex.scan(/\w\w/).map(&:hex)
 end
